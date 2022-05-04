@@ -14,7 +14,7 @@ function Toss(){
    
     return(
         <div>
-           <br/><br/> <button style={{color:"red" ,border:"2px solid blue",fontSize:45}}  onClick={handleClick}>TOSS</button>
+           <br/><br/> <button className="rounded-md border-2 border-rose-600" onClick={handleClick}>TOSS</button>
            <br/>
            {coin ? <img src="head.jpg"></img>:<img src="tail.jpg"></img>}
         </div>
